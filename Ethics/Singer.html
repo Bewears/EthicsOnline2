@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ethics Online</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Redundent Jquerry
+    <script>
+        $(document).ready(function() {
+            $("#yes1").click(function() {
+                $("#no1").fadeOut(1500);
+
+            });
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#yes2").click(function() {
+                $("#no2").fadeOut(1500);
+
+            });
+        });
+
+    </script>
+-->
+</head>
+
+<body id="bod">
+    <div>
+        <h1>Ethics Online</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Singer.html">Singer's Problem</a></li>
+            <li><a href="Trolley.html">Trolley Problem</a></li>
+        </ul>
+
+    </div>
+
+    <div class="parallax">
+        <div class="singerII">
+            <div class="full-width-container">
+                <div class="row" id="img1">
+                    <div class="one-half column value" id="headsingL">
+                        <h2 class="one">Singer's Problem</h2>
+                        <h5 class="two">Thought Exsperiment #1</h5>
+                        <p class="three">Peter Singer is a renowned moral philosipher who crafted an ethicle problem that challanges the notion of ethicle duty. The center of the problem is a drowning child, which you could choose to save or let drown depending on the circumstances.</p>
+                    </div>
+                    <div class="one-half column value" id="headsingL2">
+                        <img src="images/PeterSingerThumbnail.jpg" class="u-max-full-width" alt="Thumbnail of a man saving a drowning child">
+
+                    </div>
+                </div>
+
+                <div class="sectionI" id="TS1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="two-half column">
+                                <h4 class="hero-heading"> Imagine that you are walking down a beach... </h4>
+                                <h6>As you look out at the ocean you see a small child drowning. You are certaing that you can save them and get safely back to the shore. Do you have an ethical duty to go out and save the child?</h6>
+                                <div class="row">
+                                    <div class="one-half column">
+                                        <button class="button button-primary" onclick="fadein1();fadeout1();setTimeout(disapp1,2000);" id="yes1">Yes</button></div>
+                                    <div class="one-half column">
+                                        <a class="button button-primary" id="no1" onclick="fadein3();fadeout1();setTimeout(disapp1,2000);">No</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="TS2" class="disapp">
+                    <div class="row" id="go1">
+                        <div class="two-half column value">
+                            <h2>Who wouldn't help a drowning child?</h2>
+
+                        </div>
+                    </div>
+                    <div class="sectionI">
+                        <div class="container">
+                            <div class="row">
+                                <div class="two-half column">
+                                    <h4 class="hero-heading"> This time, imagine the same scinareo, except you are wearing exspensive clothes. </h4>
+                                    <h6>If you go in to save the child, your clothes will be ruined. You do not have enough time to take them off. Should you still save the child?</h6>
+                                    <div class="row">
+                                        <div class="one-half column">
+                                            <button class="button button-primary" onclick="fadein2();fadeout2();setTimeout(disapp2,2000);" id="yes2">Yes</button></div>
+                                        <div class="one-half column">
+                                            <a class="button button-primary" id="no2" onclick="fadein4();fadeout2();setTimeout(disapp2,2000);">No</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="TS4" class="disapp">
+                    <div class="row">
+                        <div class="two-half column value">
+                            <h2>Interesting.</h2>
+
+                        </div>
+                    </div>
+                    <div class="sectionI">
+                        <div class="container">
+                            <div class="row">
+                                <div class="two-half column">
+                                    <h4 class="hero-heading"> Most people would not let a child drown </h4>
+                                    <h6>I guess you are perticularly evil. The idea of the thought exsperiment is to show the comparisoin between a child dying directly in front of you to a child dying half way around the world. However, for you it doesn't matter at all. </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="TS3" class="disapp">
+                    <div class="row">
+                        <div class="two-half column value">
+                            <h2>Seems obvious, right?</h2>
+
+                        </div>
+                    </div>
+                    <div class="sectionI">
+                        <div class="container">
+                            <div class="row">
+                                <div class="two-half column">
+                                    <h4 class="hero-heading"> If you are willing to save this child, then should you be willing to dotnate more to charities? </h4>
+                                    <h6>Peter Singer uses this thought exsperiment to argue that we should be doing more to help those in need. There is no fundamental difference between refusing to save a child thats infront of you, and refusing to save a child that halfway across the world. To read more about this thought problem click the button below.</h6>
+                                    <a class="button button-primary" href="http://www.bbc.co.uk/ethics/charity/duty_1.shtml">Find out more</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="TS5" class="disapp">
+                    <div class="row">
+                        <div class="two-half column value">
+                            <h2>Well, I hope they are really nice clothes</h2>
+
+                        </div>
+                    </div>
+                    <div class="sectionI">
+                        <div class="container">
+                            <div class="row">
+                                <div class="two-half column">
+                                    <h4 class="hero-heading"> Otherwise, you are a monster.</h4>
+                                    <h6>Peter Singer uses this thought exsperiment to argue that we should be doing more to help those in need. There is no fundamental difference between refusing to save a child thats infront of you, and refusing to save a child that halfway across the world. However, it appears as if you don't care either way. If you still want to read more click the link below.</h6>
+                                    <a class="button button-primary" href="http://www.bbc.co.uk/ethics/charity/duty_1.shtml">Find out more</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container" id="col">
+        <div class="one-third column">
+            <button class="button button-primary" onclick="cblind();">Toggle colour blind mode</button></div>
+
+    </footer>
+    <script>
+        function cblind() {
+            var element = document.getElementById("bod");
+            element.classList.toggle("cblind");
+      
+        }
+
+    </script>
+    <!-- The animation scripts are below this comment -->
+    <script>
+        function fadein1() {
+            var element = document.getElementById("TS2");
+            element.classList.remove("disapp");
+            element.classList.add("cfadein");
+        }
+
+    </script>
+    <script>
+        function fadein2() {
+            var element = document.getElementById("TS3");
+            element.classList.remove("disapp");
+            element.classList.add("cfadein");
+        }
+
+    </script>
+    <script>
+        function fadein3() {
+            var element = document.getElementById("TS4");
+            element.classList.remove("disapp");
+            element.classList.add("cfadein");
+        }
+
+    </script>
+    <script>
+        function fadein4() {
+            var element = document.getElementById("TS5");
+            element.classList.remove("disapp");
+            element.classList.add("cfadein");
+        }
+
+    </script>
+    <script>
+        function fadeout1() {
+            var element = document.getElementById("TS1");
+            element.classList.add("cfadeout");
+        }
+
+    </script>
+    <script>
+        function fadeout2() {
+            var element = document.getElementById("TS2");
+            element.classList.add("cfadeout");
+        }
+
+    </script>
+
+    <script>
+        function disapp1() {
+            var element = document.getElementById("TS1");
+            element.classList.add("disapp");
+        }
+
+    </script>
+    <script>
+        function disapp2() {
+            var element = document.getElementById("TS2");
+            element.classList.add("disapp");
+        }
+
+    </script>
+
+    
+
+</body>
+
+</html>

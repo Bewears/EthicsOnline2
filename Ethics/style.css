@@ -1,0 +1,264 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+h1 {
+    color: white;
+    text-align: center;
+  background-image: linear-gradient(to bottom right, #fcf886, #ffabfb);
+    padding-bottom: 15px;
+    margin: 0;
+    padding-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p1 {
+    color: blueviolet;
+    size: 100;
+
+}
+
+ /* This CSS is used to make the navigation bar. It ends at the li a:hover tag. */
+ul {
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: #000000;
+    text-align: center;
+    border: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+.button {
+    border-radius: 100px;
+}
+
+.section {
+    padding: 8rem 0 7rem;
+    text-align: center;
+}
+
+.section-heading,
+.section-description {
+    margin-bottom: 1.2rem;
+}
+
+
+
+
+.one {
+    margin-bottom: .5rem;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 600
+}
+
+.two {
+    margin-bottom: .3rem;
+}
+
+.three {
+    opacity: .9;
+    font-weight: 300;
+}
+
+.singerI {
+    padding: 8rem 0 7rem;
+    text-align: center;
+    background-image: url('images/wallpaper6.jpg');
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 5rem;
+
+}
+
+.trolleyI {
+    padding: 8rem 0 7rem;
+    text-align: center;
+    background-image: url('images/Station.JPG');
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 5rem;
+
+}
+
+.u-max-full-width {
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+
+.button.button-warning {
+    background-color: red;
+}
+
+.singerII {
+
+    background-image: url(images/wallpaper6.jpg);
+    padding: 8rem 0 7rem;
+    text-align: center;
+    background-image: url('images/wallpaper6.jpg');
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 500px;
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectionI {
+    padding: 8rem 0 7rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+
+}
+
+#img1 {
+    padding-bottom: 20px;
+}
+
+.full-width-container {
+    width: 100%;
+    max-width: 100%;
+    clear: both;
+    margin: 0 auto;
+}
+
+#headsingL {
+    padding-left: 5%;
+   
+}
+#headsingL2 {
+    padding-left: 5%;
+   
+}
+#headsingR {
+    padding-right: 5%;
+    
+}
+
+ /* The next area of the css is used for the animations. */
+
+#TS2, #TS3, #TS4, #TS5{
+    opacity: 0;
+    padding-top: 10px;
+
+}
+
+
+.cfadein{
+    animation: 3s ease normal 3s forwards 1 fadein;
+}
+
+
+.cfadeout{
+    animation: 3s ease normal forwards 1 fadeout;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        
+    }
+    to {
+        opacity: 1;
+        
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+
+.trolleyII {
+
+    background-image: url(images/Station.JPG);
+    padding: 8rem 0 7rem;
+    text-align: center;
+    background-image: url('images/Station.JPG');
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 500px;
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-heading {
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+     
+}
+
+.disapp{ 
+    display: none;
+}
+
+.app {
+    display: block;
+}
+
+#col{
+    padding-top: 10px;
+    padding-left: 23%;
+}
+.cblind{
+    text-shadow: 10000px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    color: white !important;
+}
+
+ /*  these two sections below represent the main paragraph style for first singers page and then the trolley problem page. */
+.sectionI {
+    padding: 8rem 0 7rem;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #bafffe, #fbffe8);
+    color: cornflowerblue;
+
+}
+
+.TsectionI {
+    padding: 8rem 0 7rem;
+    text-align: center;
+     background-image: linear-gradient(to bottom right, #ffe9ba, #f9d9ff);
+    color: orangered;
+    overflow: hidden;
+
+}
